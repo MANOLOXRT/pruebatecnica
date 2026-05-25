@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Camiseta básica algodón",
+      "precio": 89900,
+      "categoria": "Ropa",
+      "stock": 45,
+      "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "2",
+      "nombre": "Auriculares inalámbricos Pro",
+      "precio": 249900,
+      "categoria": "Electrónica",
+      "stock": 18,
+      "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "3",
+      "nombre": "Lámpara de escritorio LED",
+      "precio": 129500,
+      "categoria": "Hogar",
+      "stock": 22,
+      "imagen": "https://images.unsplash.com/photo-1507473885762-e6afbaef0d42?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "4",
+      "nombre": "Jeans slim fit",
+      "precio": 159900,
+      "categoria": "Ropa",
+      "stock": 30,
+      "imagen": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "5",
+      "nombre": "Tablet 10 pulgadas",
+      "precio": 899000,
+      "categoria": "Electrónica",
+      "stock": 8,
+      "imagen": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&h=400&fit=crop"
+    },
+    {
+      "id": "6",
+      "nombre": "Set de ollas antiadherentes",
+      "precio": 319900,
+      "categoria": "Hogar",
+      "stock": 12,
+      "imagen": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop"
+    }
+  ]
+}
