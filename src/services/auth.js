@@ -17,11 +17,17 @@ export function saveSession(username, pin) {
     loggedAt: new Date().toISOString(),
   }
   localStorage.setItem(AUTH_KEY, JSON.stringify(session))
+  if (import.meta.env.DEV) {
+    console.log('[Auth] Sesión iniciada:', { username, loggedAt: session.loggedAt })
+  }
   return session
 }
 
 export function clearSession() {
   localStorage.removeItem(AUTH_KEY)
+  if (import.meta.env.DEV) {
+    console.log('[Auth] Sesión cerrada')
+  }
 }
 
 export function isAuthenticated() {

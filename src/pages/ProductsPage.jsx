@@ -17,7 +17,11 @@ export default function ProductsPage() {
     setError('')
     try {
       const data = await fetchProducts()
-      setProducts(Array.isArray(data) ? data : [])
+      const list = Array.isArray(data) ? data : []
+      setProducts(list)
+      if (import.meta.env.DEV) {
+        console.log(`[Inventario] ${list.length} productos cargados`, list)
+      }
     } catch (err) {
       setError(err.message || 'No se pudo cargar el inventario')
       setProducts([])
