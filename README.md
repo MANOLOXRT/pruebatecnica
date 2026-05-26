@@ -65,7 +65,7 @@ src/
 ## Instalación y ejecución
 
 ```bash
-git clone https://github.com/TU_USUARIO/ema.prubatecnica.git
+git clone https://github.com/MANOLOXRT/pruebatecnica
 cd ema.prubatecnica
 npm install
 npm run dev
@@ -112,9 +112,18 @@ Convención de commits: `feat:`, `fix:`, `style:`, `docs:`.
 
 ### Enlaces de entrega (completar al publicar)
 
-- **Repositorio:** `https://github.com/TU_USUARIO/ema.prubatecnica`
-- **App desplegada:** `https://TU_APP.vercel.app`
+- **Repositorio:** `https://github.com/MANOLOXRT/pruebatecnica`
+- **App desplegada:** `https://vercel.com/manoloxrts-projects/pruebatecnica/BZZw7u8km4NWeTaZNXBoYHeYoZ2E`
+
+
+
+### Estos son las url de todo 
+
+- **Vercel:** `https://vercel.com/manoloxrts-projects/pruebatecnica/BZZw7u8km4NWeTaZNXBoYHeYoZ2E`
+- **Mockapi:**`https://mockapi.io/projects/6a161e801b90031f81b0b1dc`
+- **Url de mockapi:** `https://6a161e801b90031f81b0b1db.mockapi.io/:endpoint`
+
 
 ## Autor
 
-Prueba técnica — Desarrollador Frontend Junior.
+Emmanuel perez Quintero — Desarrollador Frontend Junior.
