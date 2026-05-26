@@ -26,7 +26,7 @@ Dashboard para gestionar el catálogo de productos de una tienda en línea: aute
 
 ## API (JSON Server)
 
-**Desarrollo local:** `http://localhost:3001/productos`
+**Desarrollo local:** `http://localhost:3010/productos` (puertos exclusivos de este proyecto, sin compartir con otros)
 
 Recurso `productos` con campos: `id`, `nombre`, `precio`, `categoria`, `stock`, `imagen`.
 
@@ -71,9 +71,9 @@ npm install
 npm run dev
 ```
 
-Esto levanta **JSON Server** (puerto 3001) y **Vite** (puerto 5173) en paralelo.
+Esto levanta **JSON Server** (puerto **3010**) y **Vite** (puerto **5180**) en paralelo. No usa 3001 ni 5173 para evitar choques con otros proyectos en tu PC.
 
-Abre [http://localhost:5173/login](http://localhost:5173/login).
+Abre [http://localhost:5180/login](http://localhost:5180/login).
 
 ### Scripts disponibles
 

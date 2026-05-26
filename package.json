@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently -n api,vite -c blue,green \"npm run api\" \"vite\"",
-    "api": "json-server --watch db.json --port 3001",
+    "dev": "npm run ports:free && concurrently -n api,vite -c blue,green \"npm run api\" \"vite\"",
+    "api": "json-server --watch db.json --port 3010",
+    "ports:free": "node scripts/free-ports.mjs",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "verify": "node scripts/verify.mjs"
   },
   "dependencies": {
     "react": "^19.2.6",
